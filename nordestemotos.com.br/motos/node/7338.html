@@ -1,0 +1,2838 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  
+<!-- Mirrored from www.honda.com.br/motos/node/7338 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Feb 2019 19:05:04 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta property="og:image" content="/motos/sites/hda/files/2018-10/Honda_Produto_CRF250_desktop_1334_(1920)_0.jpg" />
+<meta property="og:description" content="Suas trilhas ficaram ainda mais divertidas." />
+<link rel="shortcut icon" href="../core/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="../crf-250f.html" />
+<link rel="shortlink" href="7338.html" />
+<link rel="revision" href="../crf-250f.html" />
+
+    <title>CRF 250F | Honda Motocicletas</title>
+    <link rel="shortcut icon" href="../sites/hda/themes/hondahda/assets/img/favicon.ico" type="image/vnd.microsoft.icon" />
+    <script>
+      var common = {
+          assetsRoot: '/sites/hda/themes/hondahda/assets',
+          instagram: 'https://api.instagram.com/v1/users/self/media/recent/',
+          recaptcha: '//www.google.com/recaptcha/api.js?onload=onloadRecaptcha&render=explicit'
+        }
+    </script>
+    <link rel="stylesheet" href="../sites/hda/files/css/css_nY2HlgsXgbFP5mKO8tlRR4Y32PVcrWowOHs-q9ZBB6gba28.css?pmxphz" media="all" />
+<link rel="stylesheet" href="../sites/hda/files/css/css_LbRj7XEYhKg3w5NKuF6g877a1ZGkoUXw5_lhLLUsaq4ba28.css?pmxphz" media="all" />
+
+    
+<!--[if lte IE 8]>
+<script src="/motos/sites/hda/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+
+
+    <script>
+    window.honda_motos = {
+        facebook_id: "",
+        facebook_page_url: "",
+        facebook_token: "",
+        page_url: "",
+        instagram_token: "",
+        api_interesse: "",
+        api_list_estados: "",
+        api_list_cidades: "",
+        api_list_concessionarias: "",
+
+        moto_nome: "",
+        moto_categoria: "",
+        moto_preço: ""
+    };
+</script>
+  </head>
+  <body class="path-node page-node-type-motocicleta" data-component="structure/body common/tracker">
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <header class="header" data-component="header/sticky">
+	<a href="https://www.honda.com.br/motos" class="logo">
+    <img src="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/honda-horizontal.svg" alt="Honda" />
+</a>
+
+
+<div class="menus">
+    
+
+<div>  
+    
+    
+        <div class="icon-menu-container" data-component="header/menu">
+    <a class="icon-menu">
+        <span class="hamb"></span>
+    </a>
+    <div class="menu">
+        <nav>
+                            <li class="menu-item ">
+    <a href="../index.html">
+        <div class="icon">
+          <div class="place">
+            <img src="../sites/hda/files/2017-04/home.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/home.png" typeof="foaf:Image">
+          </div>
+          <div class="over">
+            <img src="../sites/hda/files/2017-04/home-hover.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/home-hover.png" typeof="foaf:Image">
+          </div>
+        </div>
+        <span class="holder-item">
+                            Início
+                    </span>
+    </a>
+</li>
+                            <li class="menu-item ">
+    <a href="../capacetes.html">
+        <div class="icon">
+          <div class="place">
+            <img src="../sites/hda/files/2018-02/icone_capacetes_menu_principal.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2018-02/icone_capacetes_menu_principal.png" typeof="foaf:Image">
+          </div>
+          <div class="over">
+            <img src="../sites/hda/files/2018-02/icone_capacetes_menu_principal_hover.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2018-02/icone_capacetes_menu_principal_hover.png" typeof="foaf:Image">
+          </div>
+        </div>
+        <span class="holder-item">
+                            Capacetes
+                    </span>
+    </a>
+</li>
+                            <li class="menu-item ">
+    <a href="../concessionarias.html">
+        <div class="icon">
+          <div class="place">
+            <img src="../sites/hda/files/2017-04/dealership.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/dealership.png" typeof="foaf:Image">
+          </div>
+          <div class="over">
+            <img src="../sites/hda/files/2017-04/dealership-hover.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/dealership-hover.png" typeof="foaf:Image">
+          </div>
+        </div>
+        <span class="holder-item">
+                            Concessionárias
+                    </span>
+    </a>
+</li>
+                            <li class="menu-item ">
+    <a href="../blog.html">
+        <div class="icon">
+          <div class="place">
+            <img src="../sites/hda/files/2018-10/blog_v1.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2018-10/blog_v1.png" typeof="foaf:Image">
+          </div>
+          <div class="over">
+            <img src="../sites/hda/files/2018-10/blog_v1_vermelho.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2018-10/blog_v1_vermelho.png" typeof="foaf:Image">
+          </div>
+        </div>
+        <span class="holder-item">
+                            Blog
+                    </span>
+    </a>
+</li>
+                            <li class="menu-item ">
+    <a href="../por-que-honda.html">
+        <div class="icon">
+          <div class="place">
+            <img src="../sites/hda/files/2017-06/icon_porque_honda_cinza.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-06/icon_porque_honda_cinza.png" typeof="foaf:Image">
+          </div>
+          <div class="over">
+            <img src="../sites/hda/files/2017-06/icon_porque_honda_vermelho.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-06/icon_porque_honda_vermelho.png" typeof="foaf:Image">
+          </div>
+        </div>
+        <span class="holder-item">
+                            Por que Honda
+                    </span>
+    </a>
+</li>
+                            <li class="menu-item ">
+    <a href="../atendimento.html">
+        <div class="icon">
+          <div class="place">
+            <img src="../sites/hda/files/2017-04/phone.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/phone.png" typeof="foaf:Image">
+          </div>
+          <div class="over">
+            <img src="../sites/hda/files/2017-04/phone-hover.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/phone-hover.png" typeof="foaf:Image">
+          </div>
+        </div>
+        <span class="holder-item">
+                            Atendimento
+                    </span>
+    </a>
+</li>
+                            <li class="menu-item ">
+    <a href="http://www.honda.com.br/myhonda">
+        <div class="icon">
+          <div class="place">
+            <img src="../sites/hda/files/2017-04/logo1.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/logo1.png" typeof="foaf:Image">
+          </div>
+          <div class="over">
+            <img src="../sites/hda/files/2017-04/logo2.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/logo2.png" typeof="foaf:Image">
+          </div>
+        </div>
+        <span class="holder-item">
+                            myHonda - login
+                    </span>
+    </a>
+</li>
+                            <li class="menu-item ">
+    <a href="http://www.honda.com.br/">
+        <div class="icon">
+          <div class="place">
+            <img src="../sites/hda/files/2017-04/seta.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/seta.png" typeof="foaf:Image">
+          </div>
+          <div class="over">
+            <img src="../sites/hda/files/2017-04/seta-hover.png" width="40" height="40" alt="Início" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/seta-hover.png" typeof="foaf:Image">
+          </div>
+        </div>
+        <span class="holder-item">
+                            <img src="../sites/hda/files/2017-04/logo-menu.png" width="120" height="26" alt="Institucional" class=" lazyloaded" data-src="/motos/sites/hda/files/2017-04/logo-menu.png" typeof="foaf:Image">
+                    </span>
+    </a>
+</li>
+                    </nav>
+    </div>
+</div>
+  
+          </div>
+
+<div class="icon-models-container" data-component="header/menu-models">
+    <a href="#" class="icon-menu">
+        <span class="inner-text">Motos</span>
+    </a>
+    <div class="menu-models">
+        <nav><li class="menu-item"><div class="name-wrapper">
+  <span class="category-name">City</span>
+  <svg class="category-icon">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+  </svg>
+</div>
+<div class="sub-menu">
+  <span class="btn-back">
+    <svg class="icon">
+      <use xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+    </svg>
+      Voltar
+  </span>
+
+  <ul><li><a href="../pop-110i.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-12/cores_pop110i_branca_0.png?itok=q3lyIjz0 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-12/cores_pop110i_branca_0.png?itok=q3lyIjz0 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-12/cores_pop110i_branca_0.png?itok=q3lyIjz0 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-12/cores_pop110i_branca_0.png?itok=1v9mxDuj 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-12/cores_pop110i_branca_0.png?itok=q3lyIjz0" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  Pop 110i
+</span>
+</a></li><li><a href="../biz-110i.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/biz110_vermelho_2.png?itok=PSPBM-pp 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/biz110_vermelho_2.png?itok=PSPBM-pp 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/biz110_vermelho_2.png?itok=PSPBM-pp 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-09/biz110_vermelho_2.png?itok=FuxxIJRr 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-09/biz110_vermelho_2.png?itok=PSPBM-pp" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  Biz 110i
+</span>
+</a></li><li><a href="../biz-125.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/biz125_prata_2.png?itok=O3q3Tmuu 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/biz125_prata_2.png?itok=O3q3Tmuu 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/biz125_prata_2.png?itok=O3q3Tmuu 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-09/biz125_prata_2.png?itok=xdZKqiv3 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-09/biz125_prata_2.png?itok=O3q3Tmuu" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  Biz 125
+</span>
+</a></li><li><a href="../cg-125i-cargo.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/cg125_cargo.png?itok=CxN8KncC 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/cg125_cargo.png?itok=CxN8KncC 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/cg125_cargo.png?itok=CxN8KncC 1x, /motos/sites/hda/files/styles/product_224x144/public/2016-11/cg125_cargo.png?itok=qOFMSfr1 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2016-11/cg125_cargo.png?itok=CxN8KncC" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CG 125i Cargo
+</span>
+</a></li><li><a href="../cg-125i-fan.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/cg125i_fan_vermelha.png?itok=DrTuzTYy 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/cg125i_fan_vermelha.png?itok=DrTuzTYy 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/cg125i_fan_vermelha.png?itok=DrTuzTYy 1x, /motos/sites/hda/files/styles/product_224x144/public/2016-11/cg125i_fan_vermelha.png?itok=PIg0Kgld 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2016-11/cg125i_fan_vermelha.png?itok=DrTuzTYy" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CG 125i Fan
+</span>
+</a></li><li><a href="../cg-160-cargo.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_160_Cargo_-_Branco_2.png?itok=Nw7gcUYb 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_160_Cargo_-_Branco_2.png?itok=Nw7gcUYb 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_160_Cargo_-_Branco_2.png?itok=Nw7gcUYb 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CG_160_Cargo_-_Branco_2.png?itok=fz7vUj1l 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_160_Cargo_-_Branco_2.png?itok=Nw7gcUYb" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CG 160 Cargo
+</span>
+</a></li><li><a href="../cg-160-start.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_Start-_Vermelha_2.png?itok=aaZczYX9 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_Start-_Vermelha_2.png?itok=aaZczYX9 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_Start-_Vermelha_2.png?itok=aaZczYX9 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CG_Start-_Vermelha_2.png?itok=Jyxuz1by 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_Start-_Vermelha_2.png?itok=aaZczYX9" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CG 160 Start
+</span>
+</a></li><li><a href="../cg-160-fan.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_Fan-_Cinza_2.png?itok=2s1V4_vj 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_Fan-_Cinza_2.png?itok=2s1V4_vj 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_Fan-_Cinza_2.png?itok=2s1V4_vj 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CG_Fan-_Cinza_2.png?itok=7mTSZyDq 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CG_Fan-_Cinza_2.png?itok=2s1V4_vj" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CG 160 Fan
+</span>
+</a></li><li><a href="../cg-160-titan.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/CG_cor_douradoecinza_3.png?itok=c95fWYSi 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/CG_cor_douradoecinza_3.png?itok=c95fWYSi 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/CG_cor_douradoecinza_3.png?itok=c95fWYSi 1x, /motos/sites/hda/files/styles/product_224x144/public/2019-01/CG_cor_douradoecinza_3.png?itok=uu4--c8M 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2019-01/CG_cor_douradoecinza_3.png?itok=c95fWYSi" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CG 160 Titan
+</span>
+</a></li></ul>
+
+
+  <div class="image-category" style="background-image: url(../sites/hda/files/2019-01/City_0.jpg)">
+    <div class="content">
+      <span>Conheça a categoria</span>
+      <h3 class="title">City</h3>
+      <a href="../city.html" class="link">+</a>
+    </div>
+  </div>
+</div>
+
+</li><li class="menu-item"><div class="name-wrapper">
+  <span class="category-name">Scooter</span>
+  <svg class="category-icon">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+  </svg>
+</div>
+<div class="sub-menu">
+  <span class="btn-back">
+    <svg class="icon">
+      <use xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+    </svg>
+      Voltar
+  </span>
+
+  <ul><li><a href="../elite-125.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-12/elite_vermelha.png?itok=oo4czOVW 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-12/elite_vermelha.png?itok=oo4czOVW 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-12/elite_vermelha.png?itok=oo4czOVW 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-12/elite_vermelha.png?itok=MVgJLURD 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-12/elite_vermelha.png?itok=oo4czOVW" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  Elite 125
+</span>
+</a></li><li><a href="../pcx.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/cores_PCX_SPORT.png?itok=byRH843i 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/cores_PCX_SPORT.png?itok=byRH843i 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/cores_PCX_SPORT.png?itok=byRH843i 1x, /motos/sites/hda/files/styles/product_224x144/public/2019-01/cores_PCX_SPORT.png?itok=J4IJp0C4 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2019-01/cores_PCX_SPORT.png?itok=byRH843i" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  PCX
+</span>
+</a></li><li><a href="../sh-150i.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/cores_SH150i_1.png?itok=Z1ScgAyt 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/cores_SH150i_1.png?itok=Z1ScgAyt 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-01/cores_SH150i_1.png?itok=Z1ScgAyt 1x, /motos/sites/hda/files/styles/product_224x144/public/2019-01/cores_SH150i_1.png?itok=44WBI3eH 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2019-01/cores_SH150i_1.png?itok=Z1ScgAyt" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  SH 150i
+</span>
+</a></li><li><a href="../sh-300i.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2017-03/sh300i_vermelha_0.png?itok=Nulo5Fg3 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2017-03/sh300i_vermelha_0.png?itok=Nulo5Fg3 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2017-03/sh300i_vermelha_0.png?itok=Nulo5Fg3 1x, /motos/sites/hda/files/styles/product_224x144/public/2017-03/sh300i_vermelha_0.png?itok=Nq3FpJ_6 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2017-03/sh300i_vermelha_0.png?itok=Nulo5Fg3" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  SH 300i 
+</span>
+</a></li><li><a href="../x-adv.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/MKH_X_Adv_cor_prata_metalico(1)_0.png?itok=UAPwHj8d 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/MKH_X_Adv_cor_prata_metalico(1)_0.png?itok=UAPwHj8d 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/MKH_X_Adv_cor_prata_metalico(1)_0.png?itok=UAPwHj8d 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/MKH_X_Adv_cor_prata_metalico(1)_0.png?itok=K0sD118H 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/MKH_X_Adv_cor_prata_metalico(1)_0.png?itok=UAPwHj8d" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  X-ADV
+</span>
+</a></li></ul>
+
+
+  <div class="image-category" style="background-image: url(../sites/hda/files/2019-01/Scooter.jpg)">
+    <div class="content">
+      <span>Conheça a categoria</span>
+      <h3 class="title">Scooter</h3>
+      <a href="../scooter.html" class="link">+</a>
+    </div>
+  </div>
+</div>
+
+</li><li class="menu-item"><div class="name-wrapper">
+  <span class="category-name">Naked</span>
+  <svg class="category-icon">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+  </svg>
+</div>
+<div class="sub-menu">
+  <span class="btn-back">
+    <svg class="icon">
+      <use xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+    </svg>
+      Voltar
+  </span>
+
+  <ul><li><a href="../cb-twister.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/twisterabs_laranja.png?itok=HOI_cQ7p 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/twisterabs_laranja.png?itok=HOI_cQ7p 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/twisterabs_laranja.png?itok=HOI_cQ7p 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-09/twisterabs_laranja.png?itok=QuqYJ0O2 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-09/twisterabs_laranja.png?itok=HOI_cQ7p" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CB Twister
+</span>
+</a></li><li><a href="../cb-500f.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/Honda_Cb_500F-_Laranja_3.png?itok=I-xRt5ww 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/Honda_Cb_500F-_Laranja_3.png?itok=I-xRt5ww 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/Honda_Cb_500F-_Laranja_3.png?itok=I-xRt5ww 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/Honda_Cb_500F-_Laranja_3.png?itok=WI-sq4F9 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/Honda_Cb_500F-_Laranja_3.png?itok=I-xRt5ww" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CB 500F
+</span>
+</a></li><li><a href="../cb-650f.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/cb650F_laranja.png?itok=JyRJ5eF1 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/cb650F_laranja.png?itok=JyRJ5eF1 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/cb650F_laranja.png?itok=JyRJ5eF1 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-09/cb650F_laranja.png?itok=eoDkekuM 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-09/cb650F_laranja.png?itok=JyRJ5eF1" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CB 650F
+</span>
+</a></li></ul>
+
+
+  <div class="image-category" style="background-image: url(../sites/hda/files/2019-01/Naked.jpg)">
+    <div class="content">
+      <span>Conheça a categoria</span>
+      <h3 class="title">Naked</h3>
+      <a href="../naked.html" class="link">+</a>
+    </div>
+  </div>
+</div>
+
+</li><li class="menu-item"><div class="name-wrapper">
+  <span class="category-name">Trail</span>
+  <svg class="category-icon">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+  </svg>
+</div>
+<div class="sub-menu">
+  <span class="btn-back">
+    <svg class="icon">
+      <use xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+    </svg>
+      Voltar
+  </span>
+
+  <ul><li><a href="../nxr-160-bros.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/bross160_branca.png?itok=cKZn09z6 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/bross160_branca.png?itok=cKZn09z6 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/bross160_branca.png?itok=cKZn09z6 1x, /motos/sites/hda/files/styles/product_224x144/public/2016-11/bross160_branca.png?itok=dmYKtT4Y 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2016-11/bross160_branca.png?itok=cKZn09z6" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  NXR 160 Bros
+</span>
+</a></li><li><a href="../nxr-160-bros-esdd.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/BROS_cor_VermelhoeBranco.png?itok=WN6fJ89U 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/BROS_cor_VermelhoeBranco.png?itok=WN6fJ89U 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-09/BROS_cor_VermelhoeBranco.png?itok=WN6fJ89U 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-09/BROS_cor_VermelhoeBranco.png?itok=BzXwYsz6 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-09/BROS_cor_VermelhoeBranco.png?itok=WN6fJ89U" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  NXR 160 Bros ESDD 
+</span>
+</a></li><li><a href="../xre-190.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/cores_laranja_2.png?itok=kFKoz7K1 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/cores_laranja_2.png?itok=kFKoz7K1 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/cores_laranja_2.png?itok=kFKoz7K1 1x, /motos/sites/hda/files/styles/product_224x144/public/2019-02/cores_laranja_2.png?itok=zWzICOji 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2019-02/cores_laranja_2.png?itok=kFKoz7K1" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  XRE 190 ABS
+</span>
+</a></li><li><a href="../xre-300.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/xre300_vermelha_7.png?itok=2fQ965mw 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/xre300_vermelha_7.png?itok=2fQ965mw 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/xre300_vermelha_7.png?itok=2fQ965mw 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-10/xre300_vermelha_7.png?itok=VDAAiybK 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-10/xre300_vermelha_7.png?itok=2fQ965mw" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  XRE 300
+</span>
+</a></li><li><a href="../cb-500x.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/Honda_500X-_Laranja.png?itok=281nI38b 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/Honda_500X-_Laranja.png?itok=281nI38b 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/Honda_500X-_Laranja.png?itok=281nI38b 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/Honda_500X-_Laranja.png?itok=JyE3YSL1 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/Honda_500X-_Laranja.png?itok=281nI38b" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CB 500X
+</span>
+</a></li><li><a href="../nc-750x.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2017-06/_nc750x_cores_vermelha_0.png?itok=gT85oKfl 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2017-06/_nc750x_cores_vermelha_0.png?itok=gT85oKfl 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2017-06/_nc750x_cores_vermelha_0.png?itok=gT85oKfl 1x, /motos/sites/hda/files/styles/product_224x144/public/2017-06/_nc750x_cores_vermelha_0.png?itok=ZkxW6xkh 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2017-06/_nc750x_cores_vermelha_0.png?itok=gT85oKfl" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  NC 750X
+</span>
+</a></li><li><a href="../crf-1000l-africa-twin.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/africa_twin_CRF1000L_branco_perolizado_0.png?itok=KWCCaXfI 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/africa_twin_CRF1000L_branco_perolizado_0.png?itok=KWCCaXfI 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/africa_twin_CRF1000L_branco_perolizado_0.png?itok=KWCCaXfI 1x, /motos/sites/hda/files/styles/product_224x144/public/2016-11/africa_twin_CRF1000L_branco_perolizado_0.png?itok=gxySGjSH 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2016-11/africa_twin_CRF1000L_branco_perolizado_0.png?itok=KWCCaXfI" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 1000L Africa Twin
+</span>
+</a></li></ul>
+
+
+  <div class="image-category" style="background-image: url(../sites/hda/files/2019-01/Trail.jpg)">
+    <div class="content">
+      <span>Conheça a categoria</span>
+      <h3 class="title">Trail</h3>
+      <a href="../trail.html" class="link">+</a>
+    </div>
+  </div>
+</div>
+
+</li><li class="menu-item"><div class="name-wrapper">
+  <span class="category-name">Off Road</span>
+  <svg class="category-icon">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+  </svg>
+</div>
+<div class="sub-menu">
+  <span class="btn-back">
+    <svg class="icon">
+      <use xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+    </svg>
+      Voltar
+  </span>
+
+  <ul><li><a href="../crf-230f.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/crf230f_vermelha.png?itok=dfiDUqoV 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/crf230f_vermelha.png?itok=dfiDUqoV 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/crf230f_vermelha.png?itok=dfiDUqoV 1x, /motos/sites/hda/files/styles/product_224x144/public/2016-11/crf230f_vermelha.png?itok=fdL5yagV 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2016-11/crf230f_vermelha.png?itok=dfiDUqoV" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 230F
+</span>
+</a></li><li><a href="../crf-250f.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/crf250_vermelha_0_0.png?itok=uSJ4XVxw 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/crf250_vermelha_0_0.png?itok=uSJ4XVxw 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/crf250_vermelha_0_0.png?itok=uSJ4XVxw 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-10/crf250_vermelha_0_0.png?itok=kc34HODA 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-10/crf250_vermelha_0_0.png?itok=uSJ4XVxw" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 250F
+</span>
+</a></li><li><a href="../crf-250r.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF250R_vermelha_3.png?itok=sLeiGy_d 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF250R_vermelha_3.png?itok=sLeiGy_d 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF250R_vermelha_3.png?itok=sLeiGy_d 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CRF250R_vermelha_3.png?itok=MbEutNtw 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF250R_vermelha_3.png?itok=sLeiGy_d" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 250R
+</span>
+</a></li><li><a href="../crf-250rx.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF250RX_vermelha_2.png?itok=O4QlCj6m 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF250RX_vermelha_2.png?itok=O4QlCj6m 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF250RX_vermelha_2.png?itok=O4QlCj6m 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CRF250RX_vermelha_2.png?itok=-NYjMDh8 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF250RX_vermelha_2.png?itok=O4QlCj6m" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 250RX
+</span>
+</a></li><li><a href="../crf-450r.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450R_vermelha_2.png?itok=HWviyuB0 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450R_vermelha_2.png?itok=HWviyuB0 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450R_vermelha_2.png?itok=HWviyuB0 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CRF450R_vermelha_2.png?itok=Fpoz0OUU 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450R_vermelha_2.png?itok=HWviyuB0" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 450R
+</span>
+</a></li><li><a href="../crf-450rx.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450RX_vermelha_2.png?itok=xJwMTB05 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450RX_vermelha_2.png?itok=xJwMTB05 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450RX_vermelha_2.png?itok=xJwMTB05 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CRF450RX_vermelha_2.png?itok=ce9h_dU_ 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450RX_vermelha_2.png?itok=xJwMTB05" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 450RX
+</span>
+</a></li><li><a href="../crf-450x.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450X_vermelha_2.png?itok=Zz274A36 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450X_vermelha_2.png?itok=Zz274A36 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450X_vermelha_2.png?itok=Zz274A36 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CRF450X_vermelha_2.png?itok=blEThEIc 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CRF450X_vermelha_2.png?itok=Zz274A36" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 450X
+</span>
+</a></li><li><a href="../trx-420-fourtrax.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=UauY8Ag8 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=UauY8Ag8 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=UauY8Ag8 1x, /motos/sites/hda/files/styles/product_224x144/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=Wh-kUHfC 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=UauY8Ag8" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  TRX 420 FourTrax
+</span>
+</a></li></ul>
+
+
+  <div class="image-category" style="background-image: url(../sites/hda/files/2019-01/Off_road.jpg)">
+    <div class="content">
+      <span>Conheça a categoria</span>
+      <h3 class="title">Off Road</h3>
+      <a href="../off-road.html" class="link">+</a>
+    </div>
+  </div>
+</div>
+
+</li><li class="menu-item"><div class="name-wrapper">
+  <span class="category-name">Sport</span>
+  <svg class="category-icon">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+  </svg>
+</div>
+<div class="sub-menu">
+  <span class="btn-back">
+    <svg class="icon">
+      <use xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+    </svg>
+      Voltar
+  </span>
+
+  <ul><li><a href="../cbr-500r.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-07/CBR500R(1).png?itok=GkBbCoq4 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-07/CBR500R(1).png?itok=GkBbCoq4 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-07/CBR500R(1).png?itok=GkBbCoq4 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-07/CBR500R(1).png?itok=Bd1UUybk 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-07/CBR500R(1).png?itok=GkBbCoq4" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CBR 500R
+</span>
+</a></li><li><a href="../cbr-650f.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-07/cbr650F_laranja.png?itok=dkqe3Twn 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-07/cbr650F_laranja.png?itok=dkqe3Twn 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-07/cbr650F_laranja.png?itok=dkqe3Twn 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-07/cbr650F_laranja.png?itok=dpwolvdW 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-07/cbr650F_laranja.png?itok=dkqe3Twn" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CBR 650F
+</span>
+</a></li><li><a href="../cbr-1000rr-fireblade.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CBR1000RR_2018_cor_vermelho_azul(2).png?itok=Sbp7k6CX 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CBR1000RR_2018_cor_vermelho_azul(2).png?itok=Sbp7k6CX 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CBR1000RR_2018_cor_vermelho_azul(2).png?itok=Sbp7k6CX 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-08/CBR1000RR_2018_cor_vermelho_azul(2).png?itok=QgbrFu1b 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-08/CBR1000RR_2018_cor_vermelho_azul(2).png?itok=Sbp7k6CX" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CBR 1000RR Fireblade
+</span>
+</a></li></ul>
+
+
+  <div class="image-category" style="background-image: url(../sites/hda/files/2019-01/Sport.jpg)">
+    <div class="content">
+      <span>Conheça a categoria</span>
+      <h3 class="title">Sport</h3>
+      <a href="../sport.html" class="link">+</a>
+    </div>
+  </div>
+</div>
+
+</li><li class="menu-item"><div class="name-wrapper">
+  <span class="category-name">Touring</span>
+  <svg class="category-icon">
+    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+  </svg>
+</div>
+<div class="sub-menu">
+  <span class="btn-back">
+    <svg class="icon">
+      <use xlink:href="sites/hda/themes/hondahda/assets/img/sprite.html#arrow"></use>
+    </svg>
+      Voltar
+  </span>
+
+  <ul><li><a href="../gl-1800-goldwingtour.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/Goldwing_tour.png?itok=4DOhCmws 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/Goldwing_tour.png?itok=4DOhCmws 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/Goldwing_tour.png?itok=4DOhCmws 1x, /motos/sites/hda/files/styles/product_224x144/public/2019-02/Goldwing_tour.png?itok=3QMHuY7m 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2019-02/Goldwing_tour.png?itok=4DOhCmws" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  GL 1800 Gold Wing Tour 
+</span>
+</a></li><li><a href="../gl-1800-goldwing.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/Goldwing.png?itok=X6q-hEoE 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/Goldwing.png?itok=X6q-hEoE 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2019-02/Goldwing.png?itok=X6q-hEoE 1x, /motos/sites/hda/files/styles/product_224x144/public/2019-02/Goldwing.png?itok=0yM2bCsT 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2019-02/Goldwing.png?itok=X6q-hEoE" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  GL 1800 Gold Wing
+</span>
+</a></li></ul>
+
+
+  <div class="image-category" style="background-image: url(../sites/hda/files/2019-01/Touring.jpg)">
+    <div class="content">
+      <span>Conheça a categoria</span>
+      <h3 class="title">Touring</h3>
+      <a href="../touring.html" class="link">+</a>
+    </div>
+  </div>
+</div>
+
+</li><li class="menu-item category"><a href="../modelos.html" class="name-wrapper"><span class="category-name">Todas as motos</span></a></li></nav>
+    </div>
+</div>
+
+</div>
+
+<a href="../concessionarias.html" class="btn find-a-retail">
+    <svg>
+        <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#location"></use>
+    </svg>
+    <span>Encontrar uma concessionária</span>
+</a>
+
+	<script>
+    window.honda_motos = {
+        facebook_id: "",
+        facebook_page_url: "",
+        facebook_token: "",
+        page_url: "",
+        instagram_token: "",
+        api_interesse: "",
+        api_list_estados: "",
+        api_list_cidades: "",
+        api_list_concessionarias: "",
+
+        moto_nome: "",
+        moto_categoria: "",
+        moto_preço: ""
+    };
+</script>
+</header>
+<!-- Google Tag Manager -->
+<noscript><iframe src="#"//www.googletagmanager.com/ns.html?id=GTM-MPQG9L"" height=""0"" width=""0"" style=""display:none;visibility:hidden""></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MPQG9L');</script>
+<!-- End Google Tag Manager -->
+
+<div class="main">
+	  <div class="region region-content">
+    
+
+
+  <h1 class="page-title"><span class="field field--name-title field--type-string field--label-hidden">CRF 250F</span>
+</h1>
+
+
+
+
+
+<div data-component="product product/tracking product/anchor">
+<section>
+<nav class="nav-bar" data-component="header/sticky">
+  <div class="wrapper">
+    <div class="item category">
+      Off Road / CRF NACIONAL
+    </div>
+    <ul><li><a href="../crf-230f.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/crf230f_vermelha.png?itok=dfiDUqoV 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/crf230f_vermelha.png?itok=dfiDUqoV 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2016-11/crf230f_vermelha.png?itok=dfiDUqoV 1x, /motos/sites/hda/files/styles/product_224x144/public/2016-11/crf230f_vermelha.png?itok=fdL5yagV 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2016-11/crf230f_vermelha.png?itok=dfiDUqoV" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 230F
+</span>
+</a></li><li><a href="../crf-250f.html" class="item">
+      <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/crf250_vermelha_0_0.png?itok=uSJ4XVxw 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/crf250_vermelha_0_0.png?itok=uSJ4XVxw 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_112x72/public/2018-10/crf250_vermelha_0_0.png?itok=uSJ4XVxw 1x, /motos/sites/hda/files/styles/product_224x144/public/2018-10/crf250_vermelha_0_0.png?itok=kc34HODA 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/product_112x72/public/2018-10/crf250_vermelha_0_0.png?itok=uSJ4XVxw" typeof="foaf:Image" />
+
+  </picture>
+
+    <span class="name">  CRF 250F
+</span>
+</a></li></ul>
+  </div>
+</nav>
+
+<div class="product-detail" data-component="product-detail">
+  <!--@video({ videoUrl: '', videoId: '' })-->
+  <div class="holder-presentation" data-component="video product-presentation activesection top-parallax">
+    <div class="product-presentation" data-component="activesection" data-name="apresentacao-video" data-image>
+        <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/Honda_Produto_CRF250_desktop_1334_(1920)_0.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/bg_destaque_produto_tablet/public/2018-10/Honda_Produto_CRF250_desktop_1334_(1920)_0.jpg?itok=qZ_i-Pb7 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_600_x_450/public/2018-10/Honda_Produto_CRF250_desktop_1334_(1920)_0.jpg?itok=06TFn5BZ 1x, /motos/sites/hda/files/styles/tablet_1200x900/public/2018-10/Honda_Produto_CRF250_desktop_1334_(1920)_0.jpg?itok=m5M0POxs 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_600_x_450/public/2018-10/Honda_Produto_CRF250_desktop_1334_(1920)_0.jpg?itok=06TFn5BZ" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+          </div>
+    <div class="text-holder" data-holder>
+      <div class="wrapper wrapper-image">
+        <div class="product-name" data-component="product-name title-mask">
+                      <h1 class="text">  CRF 250F
+</h1>
+                                <p class="headline">
+                              Suas trilhas ficaram ainda mais divertidas.<br/>
+                          </p>
+                  </div>
+                      </div>
+      <div class="buttons-top">
+                            <form
+          action="https://www.honda.com.br/"
+          method="post"
+          data-component="interest"
+          >
+            <input name="ref" type="hidden" value="CRF 250F">
+            <input name="dream" type="hidden" value="N">
+            <input name="categoria" type="hidden" value="Off Road">
+            <input name="name" type="hidden" value="CRF 250F">
+            <input name="price" type="hidden" value="">
+                        <input name="sub_origin" type="hidden" value="Site">
+            <input name="plano" type="hidden" value="">
+            <input name="url" type="hidden" value="">
+            <button
+            type="submit"
+            class="btn highlight-button anchor-button"
+            data-click="tenhointeresse"
+            >
+              Tenho interesse
+            </button>
+          </form>
+                      </div>
+    </div>
+	<video class="video-el" autoplay loop muted="true">
+		<source src="#" type="video/webm">
+	</video>
+  </div>
+
+  <div class="holder-detail anchor" data-anchor="moto" data-component="price-type activesection">
+
+    <div class="tabs-product">
+      <div class="wrapper">
+                                <div class="tab-title -active" data-id="CRF 250F_DEFAULT">
+                        <div class="product-name" data-component="product-name">
+              <h2 class="text">
+                  CRF 250F
+
+                              </h2>
+            </div>
+          </div>
+              </div>
+    </div>
+
+          <div class="tab-content -active " data-component="tab-product">
+        <div class="wrapper">
+          <div class="holder-image">
+
+            <div class="product-image" data-component="scroll-move product-image">
+                              <picture class="item show">
+                  <source data-srcset="/motos/sites/hda/files/2018-10/crf250_vermelha_0_0.png" />
+                  <img data-src="" class="lazyload"/>
+                </picture>
+                          </div>
+
+            <div class="buttons-wrapper">
+
+              <!--@product-colors({ images: '.product-image' })-->
+              <div class="product-colors" data-component="product-colors activesection" data-name="cores">
+                <div class="holder-colors">
+                  <ul>
+                                      <li class="active">
+                      <div class="button-color" data-text="Vermelho">
+                        <div class="button-border">
+                          <span style="background-color: #bc161a;;"></span>
+                          <span style="background-color: ;"></span>
+                          <span style="background-color: ;"></span>
+                        </div>
+                      </div>
+                    </li>
+                                    </ul>
+                </div>
+              </div>
+
+              <div class="buttons-holder" data-component="buttons-tools">
+                                  <div class="buttons show">
+                                          <button class="circle-button button-zoom" data-component="set-zoom" data-img="/motos/sites/hda/files/2018-10/crf250_1920x980.jpg" data-img-big="../sites/hda/files/2018-10/crf250_4000x2042.jpg">
+                        <svg>
+                          <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#zoom"></use>
+                        </svg>
+                      </button>
+                                                          </div>
+                              </div>
+            </div>
+          </div>
+
+          <div class="product-detail-wrapper">
+              <div class="product-price-holder" data-component="product-price">
+                                <div class="product-price show" data-type="a-partir">
+                                        <div class="holder -price">  
+  <span class="type">A partir de</span>
+  <div class="price">R$ 14.990*</div>
+</div>
+<div class="holder">
+  <span class="text"></span>
+      <span class="text">Preço público sugerido.</span>
+        <span class="text">Frete não incluso.</span>  
+    
+</div>
+
+
+                                  </div>
+                            </div>
+
+              <div class="product-buttons-holder" data-component="product-buttons">
+                                  <form
+                  action="https://www.honda.com.br/"
+                  method="post"
+                  data-component="interest"
+                  >
+                    <input name="ref" type="hidden" value="CRF 250F">
+                    <input name="dream" type="hidden" value="N">
+                    <input name="name" type="hidden" value="CRF 250F">
+                    <input name="price" type="hidden" value="">
+                    <input name="categoria" type="hidden" value="Off Road">
+                                        <input name="plano" type="hidden" value="">
+                    <input name="url" type="hidden" value="">
+
+                    <button
+                    type="submit"
+                    class="btn highlight-button"
+                    value="Tenho interesse"
+                    >
+                      Tenho interesse
+                    </button>
+                  </form>
+                                                                              </div>
+          </div>
+        </div>
+
+        <div class="product-info-holder" data-component="product-price">
+          <div class="wrapper">
+                        <div class="product-info show" data-type="a-partir">
+                                
+<div class="holder-icons">
+</div>
+                          </div>
+                    </div>
+        </div>
+      </div>
+      </div>
+</div>
+
+<div class="modal product-360" data-modal="btn-360" data-component="modal product-360">
+  <div class="modal-bg"></div>
+  <div class="modal-inner">
+    <button class="close-button" data-close>
+      <span>close</span>
+      <svg>
+        <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="image-holder">
+    </div>
+    <div class="loading" data-component="loading">
+      <svg class="svg" width="200" height="200" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <circle r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" stroke-dashoffset="0"></circle>
+        <circle class="bar" r="90" cx="100" cy="100" fill="transparent" stroke-dasharray="565.48" style="stroke-dashoffset: 565px;"></circle>
+      </svg>
+      <span class="percent" data-pct="0"></span>
+    </div>
+    <div class="navigation">
+      <button class="button-360" data-button>360</button>
+    </div>
+  </div>
+</div>
+<div class="modal zoom" data-modal="btn-zoom" data-component="modal zoom">
+  <div class="modal-bg"></div>
+  <div class="modal-inner">
+    <div class="image-holder">
+    </div>
+    <button class="close-button" data-close>
+      <span>close</span>
+      <svg>
+        <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <div class="buttons-holder">
+      <button class="button minus" data-out>
+        <span>menos</span>
+        <svg>
+          <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#minus"></use>
+        </svg>
+      </button>
+      <button class="button plus" data-in>
+        <span>plus</span>
+        <svg>
+          <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#plus"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+    <div class="product-gallery"  data-component="product-gallery">
+      <div class="product-gallery-holder">
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/crf250_3_4.jpg?itok=oj_tbR-f 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/crf250_3_4.jpg?itok=vzRcx-uu 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/crf250_3_4.jpg?itok=5bpweFgJ 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/crf250_3_4.jpg?itok=KdqTI7y4 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/crf250_3_4.jpg?itok=5bpweFgJ" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/crf250_lateral.jpg?itok=9Ev02Lpr 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/crf250_lateral.jpg?itok=4iPy6p7M 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/crf250_lateral.jpg?itok=Jx0jae5G 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/crf250_lateral.jpg?itok=XeHyAlBM 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/crf250_lateral.jpg?itok=Jx0jae5G" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_3_4_motor_3.jpg?itok=DQ1ADVUg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_3_4_motor_3.jpg?itok=XerFg1X2 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_3_4_motor_3.jpg?itok=-X_OBO7Y 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_3_4_motor_3.jpg?itok=YIQVTCf9 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_3_4_motor_3.jpg?itok=-X_OBO7Y" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_banco_4.jpg?itok=NE_pzrHX 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_banco_4.jpg?itok=gNAF4c4j 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_banco_4.jpg?itok=PSrr_1GV 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_banco_4.jpg?itok=8t6D-WEG 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_banco_4.jpg?itok=PSrr_1GV" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_escapamento_4.jpg?itok=q7K3edls 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_escapamento_4.jpg?itok=WuKdWgs0 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_escapamento_4.jpg?itok=4an_8cwn 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_escapamento_4.jpg?itok=76P7aqQD 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_escapamento_4.jpg?itok=4an_8cwn" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_motor_3.jpg?itok=PcVZ9R8J 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_motor_3.jpg?itok=bJ6qSleK 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_motor_3.jpg?itok=m4EGqV4i 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_motor_3.jpg?itok=8WbAiMwf 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_motor_3.jpg?itok=m4EGqV4i" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_roda_f_0.jpg?itok=Yb4OyZnH 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_roda_f_0.jpg?itok=cItmCqjA 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_roda_f_0.jpg?itok=8y4Kmx8r 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_roda_f_0.jpg?itok=DnvEGemr 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_roda_f_0.jpg?itok=8y4Kmx8r" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_suspensao_1.jpg?itok=rZG3s0-k 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_suspensao_1.jpg?itok=oW6MkrxR 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_suspensao_1.jpg?itok=L6p8ee-w 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_suspensao_1.jpg?itok=SDa3lZRb 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_suspensao_1.jpg?itok=L6p8ee-w" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_suspensao_1.jpg?itok=rZG3s0-k 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_suspensao_1.jpg?itok=oW6MkrxR 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_suspensao_1.jpg?itok=L6p8ee-w 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_suspensao_1.jpg?itok=SDa3lZRb 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_suspensao_1.jpg?itok=L6p8ee-w" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_tanque_2.jpg?itok=MY5PLLFH 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_tanque_2.jpg?itok=8af5ZQu6 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_tanque_2.jpg?itok=EWNzH-Wn 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_tanque_2.jpg?itok=rhRBYx25 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_tanque_2.jpg?itok=EWNzH-Wn" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            <a href="#" class="gallery-image">
+            <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/desktop_840x503/public/2018-10/detalhe_farol_3.jpg?itok=4uLRFOaV 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_660x395/public/2018-10/detalhe_farol_3.jpg?itok=jQqAZv-a 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_farol_3.jpg?itok=Vo8kusrT 1x, /motos/sites/hda/files/styles/mobile_1536/public/2018-10/detalhe_farol_3.jpg?itok=ZXH8YmIo 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_768x460/public/2018-10/detalhe_farol_3.jpg?itok=Vo8kusrT" typeof="foaf:Image" />
+
+  </picture>
+
+      </a>
+            </div>
+      <div class="slide-button-holder">
+      <a href="#" class="slide-button prev">
+          <span>Anterior</span>
+          <svg>
+          <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#arrow"></use>
+          </svg>
+      </a>
+      <a href="#" class="slide-button next">
+          <span>Próxima</span>
+          <svg>
+          <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#arrow"></use>
+          </svg>
+      </a>
+      </div>
+      <span class="status"><span class="active"></span><span class="quant"></span></span>
+    </div>
+
+    <div class="product-gallery-full modal" data-modal="btn-gallery" data-component="product-gallery-full modal">
+      <div class="modal-bg"></div>
+      <div class="modal-inner">
+        <div class="product-gallery-full-holder">
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/crf250_3_4.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/crf250_3_4.jpg?itok=ntAq6LoO 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/crf250_3_4.jpg?itok=quR_jX16 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/crf250_3_4.jpg?itok=D47aPSLc 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/crf250_3_4.jpg?itok=quR_jX16" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/crf250_lateral.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/crf250_lateral.jpg?itok=nbY4KThd 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/crf250_lateral.jpg?itok=lGSBxrub 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/crf250_lateral.jpg?itok=VX34vnmV 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/crf250_lateral.jpg?itok=lGSBxrub" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_3_4_motor_3.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_3_4_motor_3.jpg?itok=IQrFMtL9 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_3_4_motor_3.jpg?itok=TXOrpYgf 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_3_4_motor_3.jpg?itok=mNv2T00q 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_3_4_motor_3.jpg?itok=TXOrpYgf" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_banco_4.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_banco_4.jpg?itok=c_jYZVNH 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_banco_4.jpg?itok=bCQgopwm 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_banco_4.jpg?itok=y-rZunDN 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_banco_4.jpg?itok=bCQgopwm" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_escapamento_4.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_escapamento_4.jpg?itok=uiDpxNIs 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_escapamento_4.jpg?itok=1JflREuH 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_escapamento_4.jpg?itok=-Fnz4Gnn 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_escapamento_4.jpg?itok=1JflREuH" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_motor_3.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_motor_3.jpg?itok=T3ilP4f- 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_motor_3.jpg?itok=Gc1Kz4q1 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_motor_3.jpg?itok=m_Wxn60z 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_motor_3.jpg?itok=Gc1Kz4q1" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_roda_f_0.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_roda_f_0.jpg?itok=q3fJA-3H 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_roda_f_0.jpg?itok=8niYLUR5 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_roda_f_0.jpg?itok=Y4Fy_P76 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_roda_f_0.jpg?itok=8niYLUR5" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_suspensao_1.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_suspensao_1.jpg?itok=mRdx89Go 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_suspensao_1.jpg?itok=zTwfmfXs 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_suspensao_1.jpg?itok=pZl-ALgu 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_suspensao_1.jpg?itok=zTwfmfXs" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_suspensao_1.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_suspensao_1.jpg?itok=mRdx89Go 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_suspensao_1.jpg?itok=zTwfmfXs 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_suspensao_1.jpg?itok=pZl-ALgu 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_suspensao_1.jpg?itok=zTwfmfXs" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_tanque_2.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_tanque_2.jpg?itok=X0hjJe3J 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_tanque_2.jpg?itok=nyAwvIz8 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_tanque_2.jpg?itok=SF2d7-Qc 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_tanque_2.jpg?itok=nyAwvIz8" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                            <div class="full-image">
+                      <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/detalhe_farol_3.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/detalhe_farol_3.jpg?itok=UQOa95nA 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_farol_3.jpg?itok=-OMqSY99 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/detalhe_farol_3.jpg?itok=Jvr70fYi 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/detalhe_farol_3.jpg?itok=-OMqSY99" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+                </div>
+                    </div>
+        <div class="slide-button-holder">
+            <a href="#" class="slide-button prev">
+            <span>Anterior</span>
+            <svg>
+                <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#arrow"></use>
+            </svg>
+            </a>
+            <a href="#" class="slide-button next">
+            <span>Próxima</span>
+            <svg>
+                <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#arrow"></use>
+            </svg>
+            </a>
+        </div>
+        <span class="status"><span class="active"></span><span class="quant"></span></span>
+        <a href="#" class="close-button">
+            <span>close</span>
+            <svg>
+            <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#close"></use>
+            </svg>
+        </a>
+      </div>
+    </div>
+<div data-name="caracteristicas-slider" data-component="activesection product-slide">
+            <div class="feature-slide anchor" id="" data-anchor="" data-component="feature-slide activesection" data-id="default">
+                <ul class="slide-holder">
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/01_infos.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/01_infos.jpg?itok=MH-Pxcgi 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/01_infos.jpg?itok=jK_duRVa 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/01_infos.jpg?itok=RA4dxJp7 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/01_infos.jpg?itok=jK_duRVa" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/02_farol.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/02_farol.jpg?itok=mo-X1-LY 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/02_farol.jpg?itok=tDFsuHFF 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/02_farol.jpg?itok=FppSTAUC 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/02_farol.jpg?itok=tDFsuHFF" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/03_visual.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/03_visual.jpg?itok=pMzTPU7r 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/03_visual.jpg?itok=bp9yWgGd 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/03_visual.jpg?itok=vWccMDNX 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/03_visual.jpg?itok=bp9yWgGd" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+          </ul>
+    <div class="wrapper">
+      <div data-component="title-mask">
+                  <h2 class="title">Informações gerais</h2>
+              </div>
+      <ul class="slide-nav">
+                  <li>
+            <h3><a href="#" class="tab-button active">Informações gerais</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Farol</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Visual</a></h3>
+          </li>
+              </ul>
+      <div class="descriptions">
+                  <span class="active">
+            A CRF 250F oferece performance e diversão para o ambiente off-road. Inspirada na linha Honda de motocross, tem o visual alinhado com os conceitos mundiais de competição da marca e traz tudo o que você precisa para as trilhas e pistas mais adversas.
+          </span>
+                  <span>
+            O novo conjunto óptico do farol está integrado às linhas agressivas do para-lamas dianteiro. 
+          </span>
+                  <span>
+            As aletas laterais seguem a mesma identidade visual da linha CRF performance, com linhas agressivas e fluídas em formato de flecha, conferindo um visual muito mais agressivo.
+          </span>
+              </div>
+    </div>
+  </div>
+            <div class="feature-slide anchor" id="" data-anchor="" data-component="feature-slide activesection" data-id="default">
+                <ul class="slide-holder">
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/04_performance.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/04_performance.jpg?itok=HSfoAzjN 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/04_performance.jpg?itok=8lWwCtdy 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/04_performance.jpg?itok=-Obu4tGB 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/04_performance.jpg?itok=8lWwCtdy" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/05_motor_0.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/05_motor_0.jpg?itok=uBEZu3SX 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/05_motor_0.jpg?itok=irb3tbix 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/05_motor_0.jpg?itok=Y9WFl6Lx 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/05_motor_0.jpg?itok=irb3tbix" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/06_injecao.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/06_injecao.jpg?itok=NKv13APE 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/06_injecao.jpg?itok=LjTp-el1 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/06_injecao.jpg?itok=PKhwcnE2 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/06_injecao.jpg?itok=LjTp-el1" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/07_cambio.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/07_cambio.jpg?itok=S8FccK7W 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/07_cambio.jpg?itok=4DKIbfnT 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/07_cambio.jpg?itok=huHDCIIF 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/07_cambio.jpg?itok=4DKIbfnT" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+          </ul>
+    <div class="wrapper">
+      <div data-component="title-mask">
+                  <h2 class="title">Desempenho</h2>
+              </div>
+      <ul class="slide-nav">
+                  <li>
+            <h3><a href="#" class="tab-button active">Performance</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Motor</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Injeção Eletrônica</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Câmbio</a></h3>
+          </li>
+              </ul>
+      <div class="descriptions">
+                  <span class="active">
+            Alta performance é o destaque da nova Honda CRF 250F, que traz o conjunto de motor, chassis e suspensão ajustados para proporcionar ainda mais diversão a pilotos dos mais diferentes níveis.
+          </span>
+                  <span>
+            O motor de 250 cilindradas SOHC, a gasolina, gera 22,2 cavalos de potência a 7.500 rpm. O novo motor entrega uma relação peso/potência maior comparada à CRF 230F, proporcionando melhores saídas e arrancadas.
+          </span>
+                  <span>
+            O motor é alimentado pelo exclusivo corpo de injeção eletrônica que garante o fluxo de combustível mesmo na falta de gravidade, evitando eventuais “buracos” na aceleração durante saltos ou na sobreposição de obstáculos em velocidade
+          </span>
+                  <span>
+            O câmbio de 5 velocidades foi desenhado para aumentar o torque nas largadas e dar maior elasticidade ao motor, evitando demasiadas trocas de marcha e garantindo uma pilotagem mais prazerosa.
+          </span>
+              </div>
+    </div>
+  </div>
+            <div class="feature-slide anchor" id="" data-anchor="" data-component="feature-slide activesection" data-id="default">
+                <ul class="slide-holder">
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/08_suspensao_d.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/08_suspensao_d.jpg?itok=tHkYme9b 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/08_suspensao_d.jpg?itok=d7OzOnc4 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/08_suspensao_d.jpg?itok=8JYtso5o 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/08_suspensao_d.jpg?itok=d7OzOnc4" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/09_suspensao_t.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/09_suspensao_t.jpg?itok=GZRCRDcF 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/09_suspensao_t.jpg?itok=WBm0Vv9B 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/09_suspensao_t.jpg?itok=SpF6RWLO 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/09_suspensao_t.jpg?itok=WBm0Vv9B" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/10_freio_0.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/10_freio_0.jpg?itok=nUP10kDs 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/10_freio_0.jpg?itok=ggUsfxd8 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/10_freio_0.jpg?itok=7WFarEUN 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/10_freio_0.jpg?itok=ggUsfxd8" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+          </ul>
+    <div class="wrapper">
+      <div data-component="title-mask">
+                  <h2 class="title">Segurança</h2>
+              </div>
+      <ul class="slide-nav">
+                  <li>
+            <h3><a href="#" class="tab-button active">Suspensão Dianteira</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Suspensão Traseira</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Novos freios</a></h3>
+          </li>
+              </ul>
+      <div class="descriptions">
+                  <span class="active">
+            As suspensões também receberam atenção especial, com um aumento de diâmetro de 10% e curso ainda maior, copiando o terreno com mais precisão sem transferir a vibração para o piloto, garantindo a sobreposição de obstáculos com mais segurança. 
+          </span>
+                  <span>
+            A balança de alumínio com novo design, garante leveza e eficiência à suspensão traseira.
+          </span>
+                  <span>
+            Com toda esta performance, a Honda CRF 250F também está mais eficiente na hora de parar. Freios a disco do tipo flutuante nas rodas traseira e dianteira garantem uma frenagem precisa e suave, sem travamentos inesperados.
+          </span>
+              </div>
+    </div>
+  </div>
+            <div class="feature-slide anchor" id="" data-anchor="" data-component="feature-slide activesection" data-id="default">
+                <ul class="slide-holder">
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/11_pilotagem.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/11_pilotagem.jpg?itok=ktmelGMK 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/11_pilotagem.jpg?itok=oxn0hyHN 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/11_pilotagem.jpg?itok=mclx0MEW 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/11_pilotagem.jpg?itok=oxn0hyHN" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/12_chassi.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/12_chassi.jpg?itok=jbmEP5TL 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/12_chassi.jpg?itok=IPLMG_P7 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/12_chassi.jpg?itok=FfBFm7N0 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/12_chassi.jpg?itok=IPLMG_P7" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/13_tanque.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/13_tanque.jpg?itok=Igy7ubAh 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/13_tanque.jpg?itok=bx5ftDMn 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/13_tanque.jpg?itok=PAfglkC8 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/13_tanque.jpg?itok=bx5ftDMn" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+              <li>
+          <div>    <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/2018-10/14_pneu.jpg 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/tablet_1320x768/public/2018-10/14_pneu.jpg?itok=Ugc8hqF8 1x"/>
+              <source type="image/jpeg" data-srcset="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/14_pneu.jpg?itok=TaQf8cuj 1x, /motos/sites/hda/files/styles/mobile_1280_x_920/public/2018-10/14_pneu.jpg?itok=CzPynyBI 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" class="lazyload" data-src="/motos/sites/hda/files/styles/mobile_640x480/public/2018-10/14_pneu.jpg?itok=TaQf8cuj" typeof="foaf:Image" />
+
+  </picture>
+
+</div>
+
+        </li>
+          </ul>
+    <div class="wrapper">
+      <div data-component="title-mask">
+                  <h2 class="title">Pilotagem</h2>
+              </div>
+      <ul class="slide-nav">
+                  <li>
+            <h3><a href="#" class="tab-button active">Controle de pilotagem</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Chassi</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Tanque de combustível</a></h3>
+          </li>
+                  <li>
+            <h3><a href="#" class="tab-button">Pneus</a></h3>
+          </li>
+              </ul>
+      <div class="descriptions">
+                  <span class="active">
+            A bordo da nova CRF 250F, o piloto tem a mais próxima sensação de pilotagem das motocicletas de performance da Honda. Uma motocicleta mais fina, leve, e fácil de pilotar, com comandos precisos e respostas rápidas.
+
+
+          </span>
+                  <span>
+            Sua fácil e confortável pilotagem se deve ao novo chassi, ainda mais reforçado, que segue o mesmo conceito dos modelos de competição, colocando o piloto em posição de ataque.
+          </span>
+                  <span>
+            O tanque de combustível está protegido entre berço duplo, que garante ainda uma melhor distribuição do combustível e concentração de massa mais próxima ao centro de gravidade.
+          </span>
+                  <span>
+            Novos pneus Pirelli Scorpion XC garantem máxima tração e aderência nas curvas, além de maior durabilidade com o uso em terrenos mais duros, como estradas não pavimentadas e trilhas com pedras.
+          </span>
+              </div>
+    </div>
+  </div>
+</div>
+<div data-component="product-slide">
+    <div class="specifications anchor" data-anchor="especificacoes" data-component="product/specifications activesection" data-name="especificacoes" data-id="CRF 250F_DEFAULT">
+    <div class="wrapper">
+      <div data-component="title-mask">
+        <h2 class="main-title" id="especificacoes">Especificações</h2>
+      </div>
+      <div class="tabs-holder" data-component="activesection">
+        <dl class="tabs">
+                              <dt>
+              <h3>Motor</h3>
+            </dt>
+              <dd class="desctiption">
+                                                                              <p class="item">
+                    <strong>Tipo:</strong> OHC, um cilindro, 4 tempos, arrefecido a ar
+                  </p>
+                                                                <p class="item">
+                    <strong>Cilindrada:</strong> 249,58 cc
+                  </p>
+                                                                <p class="item">
+                    <strong>Potência Máxima:</strong> 22,2 CV a 7.500 rpm
+                  </p>
+                                                                <p class="item">
+                    <strong>Torque Máximo:</strong> 2,28 kgf.m a 6.000 rpm
+                  </p>
+                                                                <p class="item">
+                    <strong>Transmissão:</strong> 5 velocidades
+                  </p>
+                                                                <p class="item">
+                    <strong>Sistema de Partida:</strong> Elétrico
+                  </p>
+                                                                <p class="item">
+                    <strong>Diâmetro x Curso:</strong> 71,0 x 63,03 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Relação de Compressão:</strong> 9,6:1
+                  </p>
+                                                                <p class="item">
+                    <strong>Sistema Alimentação:</strong> Injeção Eletrônica PGM FI
+                  </p>
+                                                                <p class="item">
+                    <strong>Combustível:</strong> Gasolina
+                  </p>
+                                            </dd>
+                                                          <dt>
+              <h3>Sistema elétrico</h3>
+            </dt>
+              <dd class="desctiption">
+                                                                              <p class="item">
+                    <strong>Ignição:</strong> Eletrônica
+                  </p>
+                                                                <p class="item">
+                    <strong>Bateria:</strong> 12V – 5 Ah (10h)
+                  </p>
+                                                                <p class="item">
+                    <strong>Farol:</strong> 35W
+                  </p>
+                                            </dd>
+                                        <dt>
+              <h3>Capacidade</h3>
+            </dt>
+              <dd class="desctiption">
+                                                                              <p class="item">
+                    <strong>Tanque de Combustível:</strong> 6 litros
+                  </p>
+                                                                <p class="item">
+                    <strong>Óleo do Motor:</strong> 1,3 litro
+                  </p>
+                                            </dd>
+                                                          <dt>
+              <h3>Dimensões</h3>
+            </dt>
+              <dd class="desctiption">
+                                                                              <p class="item">
+                    <strong>Comprimento x Largura x Altura:</strong> 2.108 x 798 x 1.185 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Distância entre eixos:</strong> 1.420 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Distância mínima do solo:</strong> 286 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Altura do assento:</strong> 883 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Peso Seco:</strong> 114 kg
+                  </p>
+                                            </dd>
+                                        <dt>
+              <h3>Chassi</h3>
+            </dt>
+              <dd class="desctiption">
+                                                                              <p class="item">
+                    <strong>Tipo:</strong> Twin Tube
+                  </p>
+                                                                <p class="item">
+                    <strong>Suspensão Dianteira/Curso:</strong> Garfo telescópico / 240 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Suspensão Traseira/Curso:</strong> Pro-link / 230 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Freio Dianteiro/Diâmetro:</strong> A disco / 240 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Freio Traseiro/Diâmetro:</strong> A disco /  220 mm
+                  </p>
+                                                                <p class="item">
+                    <strong>Pneu Dianteiro:</strong> 80/100 - 21NHS
+                  </p>
+                                                                <p class="item">
+                    <strong>Pneu Traseiro:</strong> 100/100 - 18NHS
+                  </p>
+                                            </dd>
+                                            </dl>
+      </div>
+    </div>
+  </div>
+  </div>
+<div class="features" data-component="activesection" data-name="caracteristicas">
+	<div class="wrapper">
+		<ul>
+											<li>
+					<h3 class="title">
+						Motor 250cc
+					</h3>
+																<span class="text"><p>Grande evolução na motorização, com grande aumento na relação peso-potência.</p>
+</span>
+									</li>
+															<li>
+					<h3 class="title">
+						Novo design
+					</h3>
+																<span class="text"><p>Modelo inspirado na linha CRF performance.</p>
+</span>
+									</li>
+															<li>
+					<h3 class="title">
+						Freio a disco
+					</h3>
+																<span class="text"><p>A nova CRF 250F conta com freio a disco nas duas rodas.</p>
+</span>
+									</li>
+															<li>
+					<h3 class="title">
+						<strong>Isenta de IPVA e Licenciamento</strong>
+					</h3>
+														</li>
+									</ul>
+	</div>
+</div>
+<div class="services" data-component="services activesection" data-name="servicos">
+	<div class="wrapper">
+		<ul class="service-list">
+							<li class="item">
+					<h2 class="title"><strong>Maior rede de concessionárias da América do Sul</strong></h2>
+					<p class="text">Viaje tranquilo, sempre haverá uma Honda perto de você onde quer que você esteja. Só no Brasil são mais de 1.200 lojas.</p>
+				</li>
+							<li class="item">
+					<h2 class="title"><strong>Serviço Expresso</strong></h2>
+					<p class="text">Maior conveniência e agilidade na inspeção gratuita de 21 itens.
+Os reparos nas motocicletas são feitos na sua frente em boxes exclusivos e em até 1 hora.</p>
+				</li>
+					</ul>
+	</div>
+</div>
+</section>
+<div class="product-related" data-component="product-related activesection" data-name="produtos-relacionados">
+  <div class="wrapper">
+    <ul class="related-navigation">
+              <li>
+          <h2><a href="#" class="tab-button active" data-id="motos">
+            motos Off Road
+          </a></h2>
+        </li>
+                    <li>
+                      <h2><a href="#" class="tab-button" data-id="preco">preço semelhante</a></h2>
+                  </li>
+          </ul>
+    <div class="product-list show" data-component="activesection ">
+          <ul class="product-list-holder" data-component="slider"><li class="product-item"><div class="single-product">
+   
+    <h3 class="title">
+      <a href="../crf-230f.html">  CRF 230F
+</a>
+    </h3>
+    <div class="img">
+        <a href="../crf-230f.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/crf230f_vermelha.png?itok=pzMS4CSV 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/crf230f_vermelha.png?itok=pzMS4CSV 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/crf230f_vermelha.png?itok=pzMS4CSV 1x, /motos/sites/hda/files/styles/product_400x256/public/2016-11/crf230f_vermelha.png?itok=UTN4aiYQ 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2016-11/crf230f_vermelha.png?itok=pzMS4CSV" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 13.450</span>
+                    <span class="public-price installments">Preço público sugerido.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="CRF 230F">
+          <input name="dream" type="hidden" value="N">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="CRF 230F">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li><li class="product-item"><div class="single-product">
+     <span class="stamp lancamento">Lançamento</span>
+
+    <h3 class="title">
+      <a href="../crf-250r.html">  CRF 250R
+</a>
+    </h3>
+    <div class="img">
+        <a href="../crf-250r.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF250R_vermelha_3.png?itok=CY3stVP- 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF250R_vermelha_3.png?itok=CY3stVP- 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF250R_vermelha_3.png?itok=CY3stVP- 1x, /motos/sites/hda/files/styles/product_400x256/public/2018-08/CRF250R_vermelha_3.png?itok=rjEIVLcs 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF250R_vermelha_3.png?itok=CY3stVP-" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 40.590</span>
+                    <span class="public-price installments">Preço público sugerido base SP.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="CRF 250R">
+          <input name="dream" type="hidden" value="A">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="CRF 250R">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li><li class="product-item"><div class="single-product">
+     <span class="stamp lancamento">Lançamento</span>
+
+    <h3 class="title">
+      <a href="../crf-250rx.html">  CRF 250RX
+</a>
+    </h3>
+    <div class="img">
+        <a href="../crf-250rx.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF250RX_vermelha_2.png?itok=j5yBiAku 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF250RX_vermelha_2.png?itok=j5yBiAku 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF250RX_vermelha_2.png?itok=j5yBiAku 1x, /motos/sites/hda/files/styles/product_400x256/public/2018-08/CRF250RX_vermelha_2.png?itok=rSUTG0Fx 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF250RX_vermelha_2.png?itok=j5yBiAku" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 41.990</span>
+                    <span class="public-price installments">Preço público sugerido base SP.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="CRF 250RX">
+          <input name="dream" type="hidden" value="A">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="CRF 250RX">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li><li class="product-item"><div class="single-product">
+   
+    <h3 class="title">
+      <a href="../trx-420-fourtrax.html">  TRX 420 FourTrax
+</a>
+    </h3>
+    <div class="img">
+        <a href="../trx-420-fourtrax.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=Zn9_rIyL 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=Zn9_rIyL 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=Zn9_rIyL 1x, /motos/sites/hda/files/styles/product_400x256/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=LJ8BmUz6 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2016-11/trx420_fourtrax_vermelho_4.png?itok=Zn9_rIyL" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 27.393</span>
+                    <span class="public-price installments">Preço público sugerido.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="TRX 420 FourTrax">
+          <input name="dream" type="hidden" value="A">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="TRX 420 FourTrax">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li><li class="product-item"><div class="single-product">
+     <span class="stamp lancamento">Lançamento</span>
+
+    <h3 class="title">
+      <a href="../crf-450rx.html">  CRF 450RX
+</a>
+    </h3>
+    <div class="img">
+        <a href="../crf-450rx.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF450RX_vermelha_2.png?itok=n7VtFYi0 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF450RX_vermelha_2.png?itok=n7VtFYi0 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF450RX_vermelha_2.png?itok=n7VtFYi0 1x, /motos/sites/hda/files/styles/product_400x256/public/2018-08/CRF450RX_vermelha_2.png?itok=4aerqSFk 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2018-08/CRF450RX_vermelha_2.png?itok=n7VtFYi0" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 44.990</span>
+                    <span class="public-price installments">Preço público sugerido base SP.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="CRF 450RX">
+          <input name="dream" type="hidden" value="A">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="CRF 450RX">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li></ul>
+    </div>
+    <div class="product-list" data-component="activesection ">
+      <ul class="product-list-holder" data-component="slider"><li class="product-item"><div class="single-product">
+     <span class="stamp lancamento">Lançamento</span>
+
+    <h3 class="title">
+      <a href="../pcx.html">  PCX
+</a>
+    </h3>
+    <div class="img">
+        <a href="../pcx.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2019-01/cores_PCX_PRATA.png?itok=8rEwjfRq 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2019-01/cores_PCX_PRATA.png?itok=8rEwjfRq 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2019-01/cores_PCX_PRATA.png?itok=8rEwjfRq 1x, /motos/sites/hda/files/styles/product_400x256/public/2019-01/cores_PCX_PRATA.png?itok=ruKl3dkO 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2019-01/cores_PCX_PRATA.png?itok=8rEwjfRq" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 11.620</span>
+                    <span class="public-price installments">Preço público sugerido.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="PCX">
+          <input name="dream" type="hidden" value="A">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="PCX">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li><li class="product-item"><div class="single-product">
+   
+    <h3 class="title">
+      <a href="../crf-230f.html">  CRF 230F
+</a>
+    </h3>
+    <div class="img">
+        <a href="../crf-230f.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/crf230f_vermelha.png?itok=pzMS4CSV 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/crf230f_vermelha.png?itok=pzMS4CSV 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2016-11/crf230f_vermelha.png?itok=pzMS4CSV 1x, /motos/sites/hda/files/styles/product_400x256/public/2016-11/crf230f_vermelha.png?itok=UTN4aiYQ 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2016-11/crf230f_vermelha.png?itok=pzMS4CSV" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 13.450</span>
+                    <span class="public-price installments">Preço público sugerido.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="CRF 230F">
+          <input name="dream" type="hidden" value="N">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="CRF 230F">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li><li class="product-item"><div class="single-product">
+   
+    <h3 class="title">
+      <a href="../xre-190.html">  XRE 190 ABS
+</a>
+    </h3>
+    <div class="img">
+        <a href="../xre-190.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2019-02/cores_laranja_2.png?itok=fxAOMdOD 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2019-02/cores_laranja_2.png?itok=fxAOMdOD 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2019-02/cores_laranja_2.png?itok=fxAOMdOD 1x, /motos/sites/hda/files/styles/product_400x256/public/2019-02/cores_laranja_2.png?itok=jeiDWRRf 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2019-02/cores_laranja_2.png?itok=fxAOMdOD" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 13.925</span>
+                    <span class="public-price installments">Preço público sugerido.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="XRE 190 ABS">
+          <input name="dream" type="hidden" value="N">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="XRE 190 ABS">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li><li class="product-item"><div class="single-product">
+   
+    <h3 class="title">
+      <a href="../cb-twister.html">  CB Twister
+</a>
+    </h3>
+    <div class="img">
+        <a href="../cb-twister.html">  <picture>
+                <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source media="all and (min-width: 1320px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-09/twister_vermelha.png?itok=b9h69Aom 1x"/>
+              <source media="all and (min-width: 600px) and (max-width: 1319px)" type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-09/twister_vermelha.png?itok=b9h69Aom 1x"/>
+              <source type="image/png" data-srcset="/motos/sites/hda/files/styles/product_200x128/public/2018-09/twister_vermelha.png?itok=b9h69Aom 1x, /motos/sites/hda/files/styles/product_400x256/public/2018-09/twister_vermelha.png?itok=1bLfXQHv 2x"/>
+            <!--[if IE 9]></video><![endif]-->
+            <img class="lazyload bg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="" data-src="/motos/sites/hda/files/styles/product_200x128/public/2018-09/twister_vermelha.png?itok=b9h69Aom" typeof="foaf:Image" />
+
+  </picture>
+</a>
+    </div>
+    <span class="single-product-price">
+        <span class="from">A partir de</span>
+        <span class="price">R$ 13.990</span>
+                    <span class="public-price installments">Preço público sugerido.</span>
+            <span class="public-price installments">Frete não incluso.</span>
+            </span>
+          <form
+        action="https://www.honda.com.br/"
+        method="post"
+        data-component="interest"
+        >
+          <input name="ref" type="hidden" value="CB Twister">
+          <input name="dream" type="hidden" value="N">
+          <input name="categoria" type="hidden" value="">
+          <input name="name" type="hidden" value="CB Twister">
+          <input name="price" type="hidden" value="">
+          <input name="type" type="hidden" value="">
+
+          <button
+          type="submit"
+          class="btn highlight-button"
+          data-click="tenhointeresse"
+          >
+            Tenho interesse
+          </button>
+        </form>
+    </div>
+</li></ul>
+    </div>
+  </div>
+</div>
+<div class="tips" data-component="tips activesection" data-name="truques-e-dicas">
+	<div class="wrapper">
+		<div data-component="title-mask"><h2 class="tips-title">Mais sobre o universo Honda motos</h2></div>
+		<ul class="tips-list">
+											<li>
+					<div class="img">
+						              <img src="../sites/hda/files/2016-10/img_diversos_centroseducacionais.jpg" alt="Centros Educacionais de trânsito Honda" />
+                          
+					</div>
+					<h3 class="title">Centros Educacionais de trânsito Honda</h3>
+											<p class="text">Indaiatuba(SP) e Recife(PE) têm Centros Educacionais de Trânsito Honda (CETH) que oferecem treinamentos a motociclistas com o objetivo de difundir conceitos de pilotagem segura.</p>
+										<a href="https://www14.honda.com.br/harmonianotransito/paginas/SobreCeth.aspx" class="btn main-button" target="_blank">Conheça os centros</a>
+				</li>
+											<li>
+					<div class="video-preview">
+													<a href="https://youtu.be/o0kukdwEE7s?list=PL1B1du_4fp_PJ6u2gxhkc7S30gEnUAQNx" target="_blank">
+						              <img src="../sites/hda/files/2016-10/img_diversos_videoaula.jpg" alt="Vídeo Aula: A postura correta" />
+                              <span class="play-icon">
+                  <svg><use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#play"></use></svg>
+                </span>
+                          </a>
+					</div>
+					<h3 class="title">Vídeo Aula: A postura correta</h3>
+										<a href="https://www.youtube.com/playlist?list=PL1B1du_4fp_PJ6u2gxhkc7S30gEnUAQNx" class="btn main-button" target="_blank">Ver todos os vídeos</a>
+				</li>
+					</ul>
+	</div>
+</div>
+<div class="legal-text" id="legal-text" data-component="activesection target" data-diference="200" data-name="notas-de-rodape">
+	<div class="wrapper">
+		  <div><p><strong>*Tabela em vigor a partir de 03 de janeiro de 2019.</strong><br />
+Valor com base no Estado de São Paulo, não incluindo despesas com frete.</p>
+
+<p>Os preços da tebela são sugeridos pela fábrica e não correspondem necessariamente aos preços praticados na rede de concessionárias.</p>
+
+<p>Conheça o <a href="https://www.consorcionacionalhonda.com.br/">Consórcio Nacional Honda</a> e o <a href="https://www.bancohonda.com.br/">Banco Honda</a>. Confira os planos e a melhor opção para você.</p>
+</div>
+
+	</div>
+</div>
+</div>
+
+
+  </div>
+
+</div>
+
+<footer class="footer">
+	<div class="row">
+    <div class="wrapper">
+        <div class="holder">
+            <a class="brand" href="https://www.honda.com.br/motos">
+                <svg><use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#honda"></use></svg>
+            </a>
+            <div class="social-holder">
+    <span class="text">Siga nas redes sociais:</span>
+    <div class="social">
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/channel/UCNLsELTMgMu9npG2jnugoZw" class="youtube">
+                    <span>Youtube</span>
+                    <svg><use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#youtube"></use></svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/HondaDreamBrasil/?fref=ts" class="facebook">
+                    <span>Facebook</span>
+                    <svg><use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#facebook"></use></svg>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/hondamotosbr/" class="instagram">
+                    <span>Instagram</span>
+                    <svg><use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#instagram"></use></svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+<div class="row copy">
+    <div class="wrapper">
+      <p class="text">
+        <span class="copy-text">Copyright © Honda</span> <span class="links"><a href="https://www.honda.com.br/politica-de-privacidade" target="_blank">Política de privacidade</a> - <a href="https://www.honda.com.br/termos-de-uso" target="_blank">Termos de uso</a></span>
+      </p>
+    </div>
+</div>
+
+</footer>
+
+<span class="body-mask"></span>
+
+<div class="modal hl-button hl-class-placeholder honda-lead" data-modal="btn-interest" data-component="interest-form modal">
+    <div class="modal-bg"></div>
+    <div class="modal-inner">
+
+    <div class="hl-wrapper">
+
+      <form class="hl-search">
+
+				<div class="hl-hgroup-interest" data-component="title-mask">
+					<h1 class="hl-title hl-before">Solicite uma cotação</h1>
+					<h1 class="hl-title hl-after">Solicite uma cotação</h1>
+					<p class="hl-search-caption">Você pode solicitar informações sobre preço e condições de compra, serviços e peças.<br>Inclua seus dados e uma de nossas concessionárias entrará em contato o mais breve possível.</p>
+				</div>
+
+				<div class="hl-hgroup-schedule" data-component="title-mask">
+					<h1 class="hl-title hl-before">Agende um Test Ride</h1>
+					<h1 class="hl-title hl-after">Agende um Test Ride</h1>
+					<p class="hl-search-caption">Você pode selecionar a concessionária mais próxima e agendar um Test Ride.<br>Inclua seus dados e entraremos em contato o mais breve possível.</p>
+				</div>
+
+				<div class="hl-hgroup-pre-sale" data-component="title-mask">
+					<h1 class="hl-title hl-before">Pré-venda Honda Africa Twin</h1>
+					<h1 class="hl-title hl-after">Pré-venda Honda Africa Twin</h1>
+					<p class="hl-search-caption">
+						<strong>Garanta a lenda do deserto na sua garagem!</strong> <br />
+						Você pode ser um dos 100 primeiros a ter a nova Honda Africa Twin no Brasil. Preencha o formulário, selecione uma concessionária e aguarde nosso contato. Não perca a oportunidade!
+					</p>
+				</div>
+
+        <div class="hl-hgroup-pre-sale-x-adv" data-component="title-mask">
+          <h1 class="hl-title hl-before">Pré-venda X-ADV</h1>
+          <h1 class="hl-title hl-after">Pré-venda X-ADV</h1>
+          <p class="hl-search-caption">
+            <strong>​​Garanta a​ X-ADV na sua garagem! </strong> <br />
+            Você pode ser um dos ​primeiros a ter a nova​ X-ADV. Preencha o formulário, selecione uma concessionária e aguarde nosso contato. Não perca a oportunidade!
+          </p>
+        </div>
+
+        <div class="hl-hgroup-pre-sale-cbr" data-component="title-mask">
+          <h1 class="hl-title hl-before">CBR 1000RR</h1>
+          <h1 class="hl-title hl-after">CBR 1000RR</h1>
+          <p class="hl-search-caption">
+            <strong>Garanta a nova CBR 1000RR Fireblade na sua garagem! </strong> <br />
+            Você pode ser um dos primeiros a ter a nova CBR 1000RR Fireblade. Preencha o formulário, selecione uma concessionária e aguarde nosso contato. Não perca a oportunidade!​
+          </p>
+        </div>
+
+				<p class="hl-form-label">Primeiro selecione seu Estado e sua Cidade</p>
+
+        <div class="hl-selects">
+          <div>
+            <select class="hl-select estado" name="estado"
+              data-template="#estado_template"
+              data-url-estados="/motos/api/list-estados"
+            >
+              <option value="" selected>UF</option>
+            </select>
+          </div>
+          <div>
+            <select class="hl-select cidade" name="cidade"
+              data-template="#cidade_template"
+              data-url-cidades="/motos/api/list-cidades"
+            >
+              <option value="" >Cidade</option>
+            </select>
+          </div>
+        </div>
+
+        <script id="estado_template" type="x-tmpl-mustache">
+          <option value="" selected>UF</option>
+          [[#estado]]
+          <option value="[[sigla]]">[[sigla]]</option>
+          [[/estado]]
+        </script>
+
+        <script id="cidade_template" type="x-tmpl-mustache">
+          <option value="" selected>Cidade</option>
+          [[#cidade]]
+          <option value="[[cidade]]">[[cidade]]</option>
+          [[/cidade]]
+        </script>
+
+      </form>
+
+      <p class="hl-feedback">
+        São mais de 1000 concessionárias pelo Brasil
+      </p>
+
+      <div class="hl-steps" data-component="interest-step">
+
+        <form class="hl-form"
+        action="https://www.honda.com.br/motos/api/salesforce/save"
+        method="post"
+        data-component="validation"
+        data-validation-rules="required cpf email phone date"
+        data-dates="2017-10-12,2017-10-28,2017-11-02,2017-11-15,2017-12-25"
+        data-api-concessionarias="/motos/api/list-concessionarias"
+        >
+          <div class="hl-header">
+            <p class="hl-form-label">Preencha o formulário com seus dados.</p>
+          </div>
+          <div class="hl-form-inner">
+            <div class="hl-form-group">
+              <input class="hl-input required track-field" type="text" name="nome" placeholder="Nome*" maxlength="40">
+              <span class="hl-msg-error">Digite seu nome.*</span>
+            </div>
+            <div class="hl-form-group">
+              <input class="hl-input required track-field" type="text" name="sobrenome" placeholder="Sobrenome*" maxlength="80">
+              <span class="hl-msg-error">Digite seu sobrenome.*</span>
+            </div>
+            <div class="hl-form-group">
+              <input class="hl-input required cpf track-field" type="text" name="cpf" placeholder="CPF*" maxlength="14">
+              <span class="hl-msg-error">Número de CPF inválido.*</span>
+            </div>
+            <p class="hl-cpf-hint">Seus dados estão em boas mãos. Conheça a <a target="_blank" href="http://www.honda.com.br/politica-de-privacidade" class="hl-obligatory" style="text-decoration:underline">política de privacidade</a> da Honda.</p>
+            <div class="hl-form-group">
+              <input class="hl-input required email track-field" type="email" name="email" placeholder="E-mail*" maxlength="80">
+              <span class="hl-msg-error">Digite um endereço de e-mail válido.*</span>
+            </div>
+            <div class="hl-form-group">
+              <input class="hl-input required phone track-field" type="tel" name="telefone" placeholder="Telefone Celular*" maxlength="40">
+              <span class="hl-msg-error">Número de telefone inválido*</span>
+            </div>
+
+						<script id="schedule" type="x-tmpl-mustache">
+              <input type="hidden" name="origin" value="Ação Cooperada" />
+              <input type="hidden" name="sub_origin" value="Test Ride" />
+							<div class="hl-form-group">
+
+								<input class="hl-input required date" type="text" name="date" value="Data*">
+								<span class="hl-msg-error">Data inválida*</span>
+							</div>
+							<div class="hl-form-group">
+								<select class="hl-select required" name="time" data-name="Horário">
+									<option value="">Horário</option>
+									<option value="9:00">9:00</option>
+									<option value="9:30">9:30</option>
+									<option value="10:00">10:00</option>
+									<option value="10:30">10:30</option>
+									<option value="11:00">11:00</option>
+									<option value="11:30">11:30</option>
+									<option value="12:00">12:00</option>
+									<option value="12:30">12:30</option>
+									<option value="13:00">13:00</option>
+									<option value="13:30">13:30</option>
+									<option value="14:00">14:00</option>
+									<option value="14:30">14:30</option>
+									<option value="15:00">15:00</option>
+									<option value="15:30">15:30</option>
+									<option value="16:00">16:00</option>
+								</select>
+								<span class="hl-msg-error">Horário inválido*</span>
+							</div>
+							<input type="hidden" name="interest" value="Test Ride"/>
+						</script>
+
+						<script id="pre_sale" type="x-tmpl-mustache">
+							<input type="hidden" name="interest" value="Preços e condições"/>
+						</script>
+
+            <div class="hl-form-group hl-mt hl-optins hl-optional">
+              <label class="hl-label-inline">
+                <span class="hl-txt-ok">Quero receber contato por*</span>
+                <span class="hl-txt-error">Selecione pelo menos uma <br>forma de contato.*</span>
+              </label>
+              <span class="hl-checkboxes">
+                <label class="hl-checkbox">
+                  <input name="opt_phone" type="checkbox" value="1" data-name="telefone" checked>
+                  <em></em>
+                  <span>Telefone</span>
+                </label>
+                <label class="hl-checkbox">
+                  <input name="opt_mail" type="checkbox" value="1" data-name="email" checked>
+                  <em></em>
+                  <span>Email</span>
+                </label>
+              </span>
+            </div>
+            <div data-key="6Le97h8UAAAAAGzMHS3RRdQwCnXOdDUhxKHqM4e7" class="hl-captcha" style="transform:scale(0.9);-webkit-transform:scale(0.9);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+            <p class="hl-obligatory">*Campos obrigatórios</p>
+          </div>
+          <input type="hidden" name="id_concessionaria" value="" />
+
+          <div class="hl-button-holder">
+            <button type="button" class="hl-button back back-button step1">
+              <span>back</span>
+              <svg>
+                <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#arrow"></use>
+              </svg>
+            </button>
+            <button type="button" class="hl-button btn highlight-button selecione">
+              <span>Selecione concessionária</span>
+            </button>
+          </div>
+        </form>
+
+        <div class="hl-results">
+          <h1 class="hl-title"><span>Selecione a concessionária que desejar</span></h1>
+          <div class="hl-header">
+            <p class="hl-form-label">Selecione a concessionária de preferência e clique em Enviar.</p>
+          </div>
+          <div class="hl-results-list" data-url-concessionarias="/motos/api/list-concessionarias" data-template="#concessionaria_template"></div>
+
+          <script id="concessionaria_template" type="x-tmpl-mustache">
+            [[#concessionaria]]
+            <div class="hl-place">
+              <div class="hl-place-header">
+                <h3 class="hl-place-name">[[nome_guerra]]</h3>
+                <p class="hl-city">[[cidade]], [[estado]]</p>
+              </div>
+              <div class="hl-place-footer">
+                <div>
+                  <p class="hl-address">[[logradouro]]<br>[[bairro]]<br>CEP: [[cep]]</p>
+                </div>
+                <div>
+                  <p class="hl-phone">([[ddd]]) [[telefone]]</p>
+                </div>
+                <span class="id-concessionaria">[[cod_cli_assist_tecnica]]</span>
+              </div>
+            </div>
+            [[/concessionaria]]
+          </script>
+
+          <span class="hl-error warn-consessionaria">Selecione a concessionária</span>
+
+					<div class="hl-text">
+						<strong>Você está quase lá.</strong>
+						<span>Sua pré-reserva será confirmada após o contato da concessionária e a finalização do processo de compra.</span>
+					</div>
+
+          <div class="hl-button-holder">
+            <button class="hl-button back back-button step2">
+              <span>back</span>
+              <svg>
+                <use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#arrow"></use>
+              </svg>
+            </button>
+            <div class="hl-results-button">
+              <button class="hl-bt-send btn highlight-button">Enviar</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+			<div class="hl-success"></div>
+
+			<script id="success" type="x-tmpl-mustache">
+				<p class="hl-succ-title">Sua solicitação foi enviada com sucesso.</p>
+				<p class="hl-succ-text">A Honda agradece pelo interesse em nossos produtos!</p>
+				<button class="hl-succ-close btn highlight-button">Retornar ao site</button>
+			</script>
+
+			<script id="success-schedule" type="x-tmpl-mustache">
+				<p class="hl-succ-title">Seu test ride na nova [[moto]] foi agendado!</p>
+				<p class="hl-succ-text">
+					A <span>Honda</span>  agradece pelo interesse em nossos produtos!
+				</p>
+				<p class="hl-succ-text date">
+					Anote os dados do seu agendamento:
+					<span>[[date]] às [[time]]</span>
+				</p>
+				<p class="hl-succ-text">
+					[[nome]] <br />
+					[[cidade]], [[uf]] <br />
+					Telefone: <strong>([[ddd]]) [[telefone]]</strong> <br/>
+					[[logradouro]] <br />
+					[[bairro]]- CEP: [[cep]] <br/>
+          Responsável da concessionária: [[consultor]]<br/><br/>
+				</p>
+				<button class="btn main-button" data-close>Retornar ao site</button>
+			</script>
+
+    </div>
+
+    <a class="hl-logo">
+      <span>Honda</span>
+			<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAMAAABHPGVmAAAAolBMVEUAAADtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCTtHCT9gY69AAAANXRSTlMAoWEF8SDSvgoP+vaGQbAbxIFsZ7kwK95ZFrSWjciczXYS7Kzj2JE9J+infXBGOUskVDRcUZ04lBcAAAbGSURBVHgB7dfpcqJOFwbwB1oWEEQQFREXxX1fPPd/ay90Y8RpNZnEVP3fqvl9mElZbT/0OekTxT//JR3njF/mzar2CL9K69pENfymlmJT5oLfM4+JWzL8lmOPCgl+h9mY0pWt4Td4zphuVvgFu5VNJfYC78Z4K8pmeLPRcEJ/aFt4qzmv071KE29kBTrJlie8z6lfpQdC742XYkCPxC7epdWt0APTtYY3Mc91emCSNPEuh2RMskrfhTBSmz++dgbJ7PTCrgmhrTP8hOYsSWao1i2BiLb4PraPSTYYeqWEXIxv89YTkrSd1i3hx6Nxm8qzY9zdSQmZ7ncHYFtKqK72DLlOw7jLr3r4hrkiHcIOz+Y1gf7gv2cA9oLOwwRuar5hAE7XBznhZnnAXzHVgbRFcnqawA00/I3WrEL3KsqWvUygacDwdUwagHbtaL5OGDjuzwag0Ri9TJj0j6OfDUB96L1KqMbBAn9F85d0ZyLmhhcYz2rEUBhdZl9J28d/zo25SKg/rlE0QsHcJoOvDJTOeiLNjacJ1XjT+ghwnbrNp6WJ19z7AWjHkSknyDVi87VRpcL8kwE4pbJ6YyQlyDVip2FYpZvk9QCs3v8yaVKCXKPWplb58tBiDV36I8QTXtTo0FiN5Sc44ZlLudnL7u5xwkSJOhA0VZnQIxGeSUpPwicTT3hWo07Ub9Njky2e8W+TKTJ5wtMajY7dKT0zCEw80yxPJm3YoztL5dwBZ+0TnZ6o9rpnDy8olKsdHiSE1xqZW6dn00PjMIkWDJ/gY6oPM+AJZZXipvnG44B2ut57+BJ+XMuTmqnPLozt+E2T2LqymVu4Yq3ICVcMz9n5hhjeP2M/6qC5iSsPy9843faz5kF/UM23sPCCnheGHUutVjUsgnQsl99Izq3b/oeLX/s4f7uDVxzKqCzk26TBIr9pS6k9hnPUcGXuGt363SknGl7S7Hx3jSnhsAnvrLRJMlngytuvV1P5jAfI5KO0DzCf3bSJwgCwppoY48cLWviMqNSyhRlJlrG/9zByN4pu0zOxh8+xGi/7Duv7W+ZcPLY4OvGEXqimW0iep1S3CD72P2rWLuj3qvScPY2Txo5B8jLFjhCNjSQ6aJd12qbnxvX+cL9g+EvMoFwDiGZGhZ6b9oN5B99kipQ1dhV6pYWfEBWjBM0xPbTsKY7qjvCOlD47TKisMkiTYL8wAXROx03S1d6QkjKP38nqNO4OL00LsFr7hqMYbZu46pD9PMUwO8No1wHT5ud1N9blJum7n6f0RlDT3pJe6I9+kBKLJ/Usg15bnvFtpk5iXJopfcI44LsWVRLjkvXpE9U1wzclxFV2cOgzUxffoyk1wUND+ZSL/wvWNvAdZ62Kcc4swcRnzGZhgasNFWpAhQpNwA1tKlT6Wmldgo+Fbly5GU9Xl9sHX05BYSc+pI+VM+AXt3HWQVd8BJ/NQspU1WzdhIQ94Kc20bSrDW9PwvU8AB1/Vb0tFURyAC7Nd2TAmm+9Q2bO37EF9iSMPbGQV2OVn9TKHJLSN606EX/eiYWCRhn19vG7Aph8Y6f0W60DLlHKX68zvlC7vYHrUWaNzDZbAz40unchNZ/TxXvmJJ6eEyfw8hBfJZ7+MIRfrAEAs5139VAtfxnW5E/zR9FXcC7ldjwEfRH/KGTDaynSDNd1V6X6iZBKm6sUJ5FDFiJETLelJ4eIPk6Alk0lTinEBzcT77H4UYelNy+ZCCmmm/EgJOZl513XhTzNbiJ3kENEfSu8Kcdr4FasOovxKIWoRSFVnlTqEgO8KOW1a5yAbbDkJzyabEW5MS9gRmELtZ6tipoo2sJD5ucJf5qMqFGiOll8r9EB4M56xdep20027m98pNMHPRJnFOUw9Y+QNt1pR00S3PLXakJLLWyBSC2MkFmoiZKmStJoIXNSORfASKwzgWP2X7DZbIa+76/zWpiuYAGwtCv8pn/+YQw3JiSvXv/yajVCxhl0kQn2yMwGCYRuzzgh4+9QiK385RbQGMwARLoxB4aDFct/rqvI7HxkVvWwBaBurPJ/68gMWhYANgiR0RcWBEU76ABMPUXBsAAoTWBz6QFQA4sB/qV7AlTVNPJ9U90EULNaAwC6ZQF7pz8H0Ay7AM7rVRPAyXA+QmB0gKARalKI3vYAta4sAF8PzTwEQxVYpMMGD8HABHQlAYw4rAFsAx1ALw4VwGpAL52EgemxMZNC1EbAN874/RT8JPUW0A/jgTiJDvCdTn2gpgGr3gyYz4CwA9R6zl1PLmugboKL62rRE72uffRk343yn3sq0AmBmZv3xLj15D/mn/8B1KRxKriBvSgAAAAASUVORK5CYII=" alt="Honda">
+    </a>
+
+    <button class="close-button hl-bt-close">
+      <span>Fechar</span>
+      <svg><use xlink:href="https://www.honda.com.br/sites/hda/themes/hondahda/assets/img/sprite.svg#close"></use></svg>
+    </button>
+
+  </div>
+  </div>
+
+</div>
+
+<div class="loading"><div class="sk-folding-cube"><div class="sk-cube sk-cube-1"></div><div class="sk-cube sk-cube-2"></div><div class="sk-cube sk-cube-4"></div><div class="sk-cube sk-cube-3"></div></div></div>
+
+  </div>
+
+    
+    <script src="../sites/hda/files/js/js_e41hangRwS_GROqGdnMLg_-eiC1CBtiRDsmDdBV0RUM.js"></script>
+<script src="../sites/hda/themes/hondahda/assets/js/main.minaf76.js?v=8.5.8" id="main-script" defer async data-main="assets/js/product.min.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"55d2674014","applicationID":"51794873","transactionName":"NgRQZkBSW0JVAUdcDQ9Oc1FGWlpfGyZBQBIADW5cXVdQbXcNXUEQDg1eV0Bve15QB2VcBxYiXVxGQVpdWAdBGFwXCFdF","queueTime":0,"applicationTime":3075,"atts":"GkNTEAhISEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from www.honda.com.br/motos/node/7338 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Feb 2019 19:05:04 GMT -->
+</html>
